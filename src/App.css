@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+.app{
+position: static;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: #72A1BF 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.card{
+  position: absolute;
+  top: 205px;
+left: 392px;
+width: 1137px;
+height: 670px;
+background: #074770 0% 0% no-repeat padding-box;
+border-radius: 36px;
+opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+button{
+  position: relative;
+  top: 29px;
+left: 32px;
+width: 84px;
+height: 42px;
+background: #F2FAFF 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.label{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+;
 }
 
-.App-link {
-  color: #61dafb;
+.label1{
+  padding: 2rem;
+  text-align: left;
+font: normal normal normal 14px/19px Segoe UI;
+letter-spacing: 0px;
+color: #A5C0D1;
+opacity: 1;
+}
+.line{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  margin-top: -25px;
+  margin-left: 30px;
+  width: 150px;
+  height: 42px;
+
+  background: #F2FAFF 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+}
+
+.submit{
+ margin-top: -48px;
+ margin-left: 300px;
+ width: 179px;
+height: 42px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 21px;
+/* opacity: 0.49; */
+text-align: center;
+font: normal normal bold 14px/19px Segoe UI;
+letter-spacing: 0px;
+/* color: #074770; */
+}
+
+.submit{
+  cursor: pointer;
+ 
+}
+
+.home{
+  width: 84px;
+  height: 42px;
+  background: #F2FAFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: left;
+font: normal normal normal 14px/19px Segoe UI;
+letter-spacing: 0px;
+color: #A0A3A5;
+text-transform: uppercase;
+}
+
+.home:hover{
+  cursor: pointer;
+}
+
+
+.layout{
+  position: relative;
+  top: 314px;
+  left: 392px;
+  width: 523px;
+  height: 519px;
+  background: #F2FAFF 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 0px 36px;
+  opacity: 1;
+
+}
+
+section{
+  padding: 2rem;
+  font: normal normal bold 14px/19px Segoe UI;
+letter-spacing: 0px;
+color: #123043;
+text-transform: uppercase;
+opacity: 1;
+}
+
+ol{
+  list-style-type: decimal ;
+  font: normal normal normal 14px/19px Segoe UI;
+letter-spacing: 0px;
+color: #123043;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.layout2{
+  position: relative;
+  top: -225px;
+left: 915px;
+width: 614px;
+height: 519px;
+background: #F2FAFF 0% 0% no-repeat padding-box;
+/* background: transparent url('') 0% 0% no-repeat padding-box; */
+border-radius: 0px 0px 36px 0px;
+opacity: 1;
 }
